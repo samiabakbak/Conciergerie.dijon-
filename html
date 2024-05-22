@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conciergerie de Luxe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo de la conciergerie">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <img src="images/hero.jpg" alt="Image de la conciergerie">
+        <div class="hero-text">
+            <h2>Bienvenue à votre service de conciergerie de luxe</h2>
+            <p>Nous faisons de vos rêves une réalité.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service">
+            <h3>Service 1</h3>
+            <p>Description du service 1.</p>
+        </div>
+        <div class="service">
+            <h3>Service 2</h3>
+            <p>Description du service 2.</p>
+        </div>
+        <!-- Ajoute plus de services si nécessaire -->
+    </section>
+
+    <section id="about">
+        <h2>À Propos</h2>
+        <p>Notre conciergerie de luxe est dédiée à offrir le meilleur service possible.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Conciergerie de Luxe. Tous droits réservés.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
